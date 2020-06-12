@@ -12,3 +12,6 @@ I did this by his 20200222 release.
 
 The ramdisk is from Mokee whyred:
 https://download.mokeedev.com/whyred/file/MK100.0-whyred-202001301703-NIGHTLY.zip/download
+
+phh Android 10 quack(v210) release also working:
+https://github.com/phhusson/treble_experimentations/releases
