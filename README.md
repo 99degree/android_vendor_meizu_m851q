@@ -27,3 +27,5 @@ https://forum.xda-developers.com/android/development/meizu-e3-unlock-bootloader-
 
 phh Android 10 rom quack(v210) and upward release should also working, better with v219 to fix LCD backlight issue:
 https://github.com/phhusson/treble_experimentations/releases
+
+A friendly reminder, don't flash boot.IMG, instead, use fastboot to boot load the twrp and upload the system\vendor to /sdcard and flash. Then again do fastboot boot boot.img.clear to enter los.
