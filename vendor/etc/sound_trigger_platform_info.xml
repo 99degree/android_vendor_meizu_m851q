@@ -75,14 +75,7 @@
             <param detection_event_ids="0x00012C0D, 0x2, 0x00012C29" />
             <param read_cmd_ids="0x00020013, 0x2, 0x00020015" />
             <param read_rsp_ids="0x00020013, 0x2, 0x00020016" />
-        </gcs_usecase>
-        <gcs_usecase>
-            <param uid="0x2" />
-            <param load_sound_model_ids="0x00012C0D, 0x3, 0x00012C14" />
-            <param confidence_levels_ids="0x00012C0D, 0x3, 0x00012C28" />
-            <param detection_event_ids="0x00012C0D, 0x3, 0x00012C29" />
-            <param read_cmd_ids="0x00020013, 0x3, 0x00020015" />
-            <param read_rsp_ids="0x00020013, 0x3, 0x00020016" />
+            <param custom_config_ids="0x00012C0D, 0x2, 0x00012C20" />
         </gcs_usecase>
         <!-- Module and param ids with which the algorithm is integrated
             in non-graphite firmware (note these must come after gcs params)
@@ -95,6 +88,7 @@
             <param confidence_levels_ids="0x00012C1C, 0x00012C07" />
             <param operation_mode_ids="0x00012C1C, 0x00012C02" />
             <param polling_enable_ids="0x00012C1C, 0x00012C1B" />
+            <param custom_config_ids="0x00012C0D, 0x00012C20" />
         </lsm_usecase>
 
         <lsm_usecase>
@@ -103,6 +97,7 @@
             <param unload_sound_model_ids="0x00012C0D, 0x00012C15" />
             <param confidence_levels_ids="0x00012C0D, 0x00012C07" />
             <param operation_mode_ids="0x00012C0D, 0x00012C02" />
+            <param custom_config_ids="0x00012C0D, 0x00012C20" />
         </lsm_usecase>
 
         <!-- format: "ADPCM_packet" or "PCM_packet" !-->
@@ -113,6 +108,26 @@
         <param client_capture_read_delay="2000" />
     </sound_model_config>
 
+    <sound_model_config>
+        <param vendor_uuid="7038ddc8-30f2-11e6-b0ac-40a8f03d3f15" />
+        <param execution_type="WDSP" /> <!-- value: "WDSP" "ADSP" "DYNAMIC" -->
+        <param app_type="2" /> <!-- app type used in ACDB -->
+        <param library="none" />
+        <param max_cpe_phrases="1" />
+        <param max_cpe_users="1" />
+        <gcs_usecase>
+            <param uid="0x2" />
+            <param load_sound_model_ids="0x18000001, 0x3, 0x00012C14" />
+            <param confidence_levels_ids="0x18000001, 0x3, 0x00012C28" />
+            <param detection_event_ids="0x18000001, 0x3, 0x00012C29" />
+            <param read_cmd_ids="0x00020013, 0x3, 0x00020015" />
+            <param read_rsp_ids="0x00020013, 0x3, 0x00020016" />
+        </gcs_usecase>
+	<param load_sound_model_ids="0x18000001, 0x00012C14" />
+	<param unload_sound_model_ids="0x18000001, 0x00012C15" />
+        <param capture_keyword="PCM_packet, RT, 2000" />
+        <param client_capture_read_delay="2000" />
+    </sound_model_config>
     <!-- Multiple adm_config tags can be listed, each with unique profile name. -->
     <!-- app_type to match corresponding value from ACDB -->
     <adm_config>
