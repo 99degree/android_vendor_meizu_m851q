@@ -53,6 +53,8 @@
  ./etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660.rc
  ./etc/mixer_paths.xml
  ./etc/mixer_paths_intcodec.xml
+ ./etc/msm_irqbalance_sdm636.conf
+ ./etc/msm_irqbalance.conf
  ./etc/qdcm_calib_data_s6d6ff0_tianma_fhd_video_mode_dsi_panel.xml
  ./etc/qdcm_calib_data_td4310_huashi_fhd_video_mode_dsi_panel.xml
  ./etc/sensors/sensor_def_qcomdev.conf
