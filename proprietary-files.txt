@@ -1,5 +1,6 @@
  ./bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660
  ./bin/init.class_main.sh
+ ./bin/busybox
  ./etc/Flyme-Light.ttf
  ./etc/ZawgyiOne.ttf
  ./etc/audio_platform_info.xml
