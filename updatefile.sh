@@ -1,1 +1,4 @@
-cat  proprietary-files.txt | xargs -I % echo cp % /mnt/amber_vendor/%
+echo copying...
+cd vendor
+cat  ../proprietary-files.txt | xargs -I %  cp % /mnt/amber_vendor/%
+echo done!
