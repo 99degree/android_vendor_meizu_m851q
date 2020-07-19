@@ -1,7 +1,7 @@
 # LineageOS 17.1 rom porting for Meizu E3
 
-Alpha 5 ROM release is available for download, phone and data, wifi, sound are working fine:
-https://github.com/99degree/LineageOS/releases/tag/20200705
+Alpha ROM release is available for download, phone and data, wifi, sound are working fine:
+https://github.com/99degree/android_vendor_meizu_m851q/releases
 
 Please find the initial kernel source in below:
 https://source.codeaurora.org/quic/la/kernel/msm-4.4/tag/?h=LA.UM.8.2.r1-05700-sdm660.0
