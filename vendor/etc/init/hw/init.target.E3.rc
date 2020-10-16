@@ -1,0 +1,6 @@
+# Align with PL2 init
+import /vendor/etc/init/hw/init.target.PL2.rc
+
+on boot
+    # Hardcode to enable 
+    setprop qemu.hw.mainkeys 0
