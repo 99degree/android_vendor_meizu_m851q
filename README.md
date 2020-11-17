@@ -39,21 +39,34 @@ The boot.img is irregularly updated, please find the release page for download. 
 
 # Tutorial for dev before-hand
 Plz refer to https://forum.xda-developers.com/android/development/meizu-e3-lineageos-17-1-rom-porting-t4055605 for more info and comment.
+
 (0) to make it align with latest flyme v8000 fw, update system to v8000 is highly recommended. (20200926)
+
 (1) get the phone unlocked bootloader as above mentioned.
+
 (2)download below mentioned fw (boot.img.signed, system.img, vendor.img, recovery.img) in to a folder like "E3_LOS17.1", unzip and get "vendor_image.emmc.win", "system_image.emmc.win" and "boot.img.signed", rename them as boot.img, system.img, recovery.img and vendor.img
+
 (3)hold power+vol_down and do "fastboot.exe boot recovery.img"
+
 (4)in twrp, backup all partition to /sdcard, aka, "/sdcard/system.img", "/sdcard/persist.img"
+
 (5)in host PC backup from phone and upload all above downloaded and unzip rom.img to phone, procedure like open cmd.exe, "mkdir E3", "cd E3/", "adb.exe pull /sdcard .", "adb.exe push E3_LOS17.1 /sdcard"
+
 (6) twrp install, choose install img, select /sdcard/E3_LOS17.1/system.img, system partition, go
+
 (7) twrp install, choose install img, select /sdcard/E3_LOS17.1/vendor.img, vendor partition, go
+
 (8) twrp wipe, choose data partition, go (your data partition got WIPED, all data are LOST)
+
 (9) wait above finish, go back to PC terminal, cmd.exe, issue "adb.exe reboot-bootloader", then "fastboot.exe boot boot.img"
+
 (10) wait for LOS17.1 boots up
 
 optional steps
+
 (2a) you can choose to phh's quack build instead of jasmine_sprout system image as well. download it from phh's github release channel, unpack the zip, use simg->img tool to get regenerated system.ext2.img; check with linux "file" util and get
-Quote:
+
+output like below:
 root@LAPTOP-U14A2O0E:/mnt/jasmine_vendor# file /mnt/c/d_drive/whyred_temp/los17_20200111_phh_system.img
 /mnt/c/d_drive/whyred_temp/los17_20200111_phh_system.img: Linux rev 1.0 ext2 filesystem data, UUID=05050abd-8baa-4dd4-905c-903071f9ac68, volume name "system" (extents) (large files) (huge files)
 
@@ -75,7 +88,9 @@ Note:
 # Tutorial for unlock-phone
 detailed and yt video at https://forum.xda-developers.com/android/development/meizu-e3-unlock-bootloader-tutorial-t4005459
 
-step:
+disclaimer: unlock and root might ruin the phone and make it brick. Do it your own risk.
+
+here are simple step:
 
 (1)get root access
 
@@ -91,6 +106,6 @@ step:
 
 (7)fastboot flashing unlock
 
-(8)press up-vol or down-vol (not sure, i stop here, feedback welcome)
+(8)press  down-vol
 
-(9)done
+(9)done.
