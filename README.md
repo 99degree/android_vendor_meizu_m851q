@@ -59,23 +59,38 @@ root@LAPTOP-U14A2O0E:/mnt/jasmine_vendor# file /mnt/c/d_drive/whyred_temp/los17_
 
 Note:
 (1)Please sure to DO backup all the partitions
+
 (2)Please sure DO NOT to flash boot.img to boot partition, every time use fastboot to boot into LOS17.1 thus can easily restore to flyme8 rom
+
 (3)please sure when revert back flyme8, please DO use your own twrp backup to restore all partition is your first choice. Second choise is by flyme8's recovery from recovery partition, or at least the flyme8 recovery downloaded below. DO NOT use TWRP restore the flyme rom directly, and this can avoid many issues; otherwise you are compulsively to reflash flyme once again at least and all your data partition backup become useless; and if you force restore data partition, it wont help, due to internal hw keystore and crypto salt changes. so step (5) "adb.exe pull /sdcard/ ." is essential.
+
 (4)use twrp recovery to restore data partition might not work at all. so once again, backup by using "adb.exe pull /sdcard ." is important. As said, some partition might get changed by bootloader and internal fw, so hw crypto and salt, keystore partition might get changed too after first boot LOS17.1; and you cant backup these partition at twrp screen operation. and even through if you are expert enough, restoring those partitions in adb shell also might not work at all due to same reasoning.
+
 (5)using "adb.exe pull /sdcard ." is important! this is important so as i said 3 times.
+
 (6)backup all partition by "adb shell" if possible. TWRP only list some of usual partition, and some rarely used partition are not listed. Like i suffered from persist partition wiped out and cant restore without a copy. so do a "dd if=/dev/block/bootdevice/by-name/XXX of=/sdcard/XXX" is a good idea.
+
 (7)I had tried my best to make the all mount as "r/o" as possible, but i CANT guarantee all other partition are safe. So best is do as note(6) said.
 
 # Tutorial for unlock-phone
 detailed and yt video at https://forum.xda-developers.com/android/development/meizu-e3-unlock-bootloader-tutorial-t4005459
 
 step:
+
 (1)get root access
+
 (2)install terminal emulater app
+
 (3)dump frp partition
+
 (4)modify frp by hex editor at offset 7fff8 and 7fff to 1 (not sure 7fff8 or 7ffff take the effect, so i edit both) as frp1
+
 (5)write frp1 back to frp partition
+
 (6)reboot boot loader
+
 (7)fastboot flashing unlock
+
 (8)press up-vol or down-vol (not sure, i stop here, feedback welcome)
+
 (9)done
