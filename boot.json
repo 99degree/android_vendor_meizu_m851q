@@ -1,0 +1,33 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 0,
+    "headerSize" : 0,
+    "loadBase" : 0,
+    "tagsOffset" : 256,
+    "board" : "",
+    "pageSize" : 4096,
+    "cmdline" : "androidboot.device=E3 androidboot.hardware.fingerprint=goodixfp console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc170000 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=1 androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3 buildvariant=user",
+    "osVersion" : null,
+    "osPatchLevel" : null,
+    "hash" : "ZS92JLCoAexyCsV3SALB9fNDcn4AAAAAAAAAAAAAAAA=",
+    "verify" : "VB1.0",
+    "imageSize" : 12693504
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 4096,
+    "size" : 11890901,
+    "loadOffset" : 32768
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 11898880,
+    "size" : 793658,
+    "loadOffset" : 16777216
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : null
+}
