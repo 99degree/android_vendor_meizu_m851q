@@ -1,175 +1,701 @@
- ./bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660
- ./bin/init.class_main.sh
- ./bin/busybox
- ./etc/Flyme-Light.ttf
- ./etc/ZawgyiOne.ttf
- ./etc/audio_platform_info.xml
- ./etc/audio_platform_info_intcodec.xml
- ./etc/camera/GpuKernelRepo.pb
- ./etc/camera/beauty_ui9_intelligent_params.config
- ./etc/camera/camera_config.xml
- ./etc/camera/camera_pixel_config.xml
- ./etc/camera/csidtg_camera.xml
- ./etc/camera/csidtg_chromatix.xml
- ./etc/camera/female_bg.png
- ./etc/camera/female_icon.png
- ./etc/camera/imx318_chromatix.xml
- ./etc/camera/imx350_chromatix.xml
- ./etc/camera/imx350_qtech.xml
- ./etc/camera/imx350_sunny.xml
- ./etc/camera/imx362_chromatix.xml
- ./etc/camera/imx362_chromatix_bear.xml
- ./etc/camera/imx362_gt24c64a_chromatix.xml
- ./etc/camera/imx362_pixel_chromatix.xml
- ./etc/camera/imx362_qtech.xml
- ./etc/camera/imx362_sunny.xml
- ./etc/camera/imx378_chromatix.xml
- ./etc/camera/lf_facerank_model.bin
- ./etc/camera/male_bg.png
- ./etc/camera/male_icon.png
- ./etc/camera/megviifacepp_model
- ./etc/camera/model_back.dlc
- ./etc/camera/model_front.dlc
- ./etc/camera/ov13850_chromatix.xml
- ./etc/camera/ov13850_q13v06k_chromatix.xml
- ./etc/camera/ov2281_chromatix.xml
- ./etc/camera/ov2680_chromatix.xml
- ./etc/camera/ov4688_chromatix.xml
- ./etc/camera/ov5670_chromatix.xml
- ./etc/camera/ov5670_f5670bq_chromatix.xml
- ./etc/camera/ov5695_chromatix.xml
- ./etc/camera/ov7251_chromatix.xml
- ./etc/camera/ov8856_chromatix.xml
- ./etc/camera/ov8858_chromatix.xml
- ./etc/camera/ov8865_chromatix.xml
- ./etc/camera/s5k4h7yx_chromatix.xml
- ./etc/camera/s5k4h7yx_holitech.xml
- ./etc/camera/s5k4h7yx_qunhui.xml
- ./etc/camera/score_bg.png
- ./etc/camera/score_icon.png
- ./etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
- ./etc/fstab.qcom
- ./etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
- ./etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660.rc
- ./etc/mixer_paths.xml
- ./etc/mixer_paths_intcodec.xml
- ./etc/msm_irqbalance_sdm636.conf
- ./etc/msm_irqbalance.conf
- ./etc/qdcm_calib_data_s6d6ff0_tianma_fhd_video_mode_dsi_panel.xml
- ./etc/qdcm_calib_data_td4310_huashi_fhd_video_mode_dsi_panel.xml
- ./etc/sensors/sensor_def_qcomdev.conf
- ./firmware/DE.o.sdm660
- ./firmware/a225_pfp.fw
- ./firmware/a225_pm4.fw
- ./firmware/a225p5_pm4.fw
- ./firmware/a300_pfp.fw
- ./firmware/a300_pm4.fw
- ./firmware/a330_pfp.fw
- ./firmware/a330_pm4.fw
- ./firmware/a420_pfp.fw
- ./firmware/a420_pm4.fw
- ./firmware/a508_zap.b00
- ./firmware/a508_zap.b01
- ./firmware/a508_zap.b02
- ./firmware/a508_zap.elf
- ./firmware/a508_zap.mdt
- ./firmware/a512_zap.b00
- ./firmware/a512_zap.b01
- ./firmware/a512_zap.b02
- ./firmware/a512_zap.elf
- ./firmware/a512_zap.mdt
- ./firmware/a530_pfp.fw
- ./firmware/a530_pm4.fw
- ./firmware/a530v1_pfp.fw
- ./firmware/a530v1_pm4.fw
- ./firmware/a530v2_seq.fw2
- ./firmware/a530v3_gpmu.fw2
- ./firmware/a530v3_seq.fw2
- ./firmware/a540_gpmu.fw2
- ./firmware/a630_gmu.bin
- ./firmware/a630_sqe.fw
- ./firmware/cpp_firmware_v1_10_0.fw
- ./firmware/cpp_firmware_v1_12_1.fw
- ./firmware/cpp_firmware_v1_1_1.fw
- ./firmware/cpp_firmware_v1_1_6.fw
- ./firmware/cpp_firmware_v1_2_0.fw
- ./firmware/cpp_firmware_v1_4_0.fw
- ./firmware/cpp_firmware_v1_5_0.fw
- ./firmware/cpp_firmware_v1_5_1.fw
- ./firmware/cpp_firmware_v1_5_2.fw
- ./firmware/cpp_firmware_v1_6_0.fw
- ./firmware/cpp_firmware_v1_8_0.fw
- ./firmware/cppf.b00
- ./firmware/cppf.b01
- ./firmware/cppf.b02
- ./firmware/cppf.b03
- ./firmware/cppf.b04
- ./firmware/cppf.b05
- ./firmware/cppf.b06
- ./firmware/cppf.b07
- ./firmware/cppf.mdt
- ./firmware/dbmd4_va_fw.bin
- ./firmware/egista.b00
- ./firmware/egista.b01
- ./firmware/egista.b02
- ./firmware/egista.b03
- ./firmware/egista.b04
- ./firmware/egista.b05
- ./firmware/egista.b06
- ./firmware/egista.b07
- ./firmware/egista.mdt
- ./firmware/fpctzappfingerprint.b00
- ./firmware/fpctzappfingerprint.b01
- ./firmware/fpctzappfingerprint.b02
- ./firmware/fpctzappfingerprint.b03
- ./firmware/fpctzappfingerprint.b04
- ./firmware/fpctzappfingerprint.b05
- ./firmware/fpctzappfingerprint.b06
- ./firmware/fpctzappfingerprint.b07
- ./firmware/fpctzappfingerprint.mdt
- ./firmware/goodixfp.b00
- ./firmware/goodixfp.b01
- ./firmware/goodixfp.b02
- ./firmware/goodixfp.b03
- ./firmware/goodixfp.b04
- ./firmware/goodixfp.b05
- ./firmware/goodixfp.b06
- ./firmware/goodixfp.b07
- ./firmware/goodixfp.mdt
- ./firmware/ifaa_ta.mbn
- ./firmware/leia_pfp_470.fw
- ./firmware/leia_pm4_470.fw
- ./firmware/meizuE3.txt
- ./firmware/mzfacereco.b00
- ./firmware/mzfacereco.b01
- ./firmware/mzfacereco.b02
- ./firmware/mzfacereco.b03
- ./firmware/mzfacereco.b04
- ./firmware/mzfacereco.b05
- ./firmware/mzfacereco.b06
- ./firmware/mzfacereco.b07
- ./firmware/mzfacereco.mdt
- ./firmware/novatek_ts_fw.bin
- ./firmware/nvm_tlv.bin
- ./firmware/nvm_tlv_1.3.bin
- ./firmware/nvm_tlv_2.1.bin
- ./firmware/nvm_tlv_3.0.bin
- ./firmware/nvm_tlv_3.2.bin
- ./firmware/rampatch_tlv.img
- ./firmware/rampatch_tlv_1.3.tlv
- ./firmware/rampatch_tlv_2.1.tlv
- ./firmware/rampatch_tlv_3.0.tlv
- ./firmware/rampatch_tlv_3.2.tlv
- ./firmware/tas2557_uCDSP.bin
- ./firmware/tfa98xx.cnt
- ./firmware/voice_amodel.bin
- ./firmware/widevine.b00
- ./firmware/widevine.b01
- ./firmware/widevine.b02
- ./firmware/widevine.b03
- ./firmware/widevine.b04
- ./firmware/widevine.b05
- ./firmware/widevine.b06
- ./firmware/widevine.b07
- ./firmware/widevine.mdt
-
+./firmware/a508_zap.b02
+./firmware/cppf.b05
+./firmware/rampatch_tlv.img
+./firmware/goodixfp.b07
+./firmware/mzfacereco.b07
+./firmware/cppf.b00
+./firmware/rampatch_tlv_2.1.tlv
+./firmware/widevine.b02
+./firmware/cpp_firmware_v1_5_2.fw
+./firmware/widevine.mdt
+./firmware/cpp_firmware_v1_2_0.fw
+./firmware/cpp_firmware_v1_5_0.fw
+./firmware/a508_zap.b00
+./firmware/widevine.b01
+./firmware/fpctzappfingerprint.b05
+./firmware/a225p5_pm4.fw
+./firmware/egista.b00
+./firmware/goodixfp.b02
+./firmware/egista.b03
+./firmware/novatek_ts_fw.bin
+./firmware/fpctzappfingerprint.b01
+./firmware/cpp_firmware_v1_1_6.fw
+./firmware/a300_pfp.fw
+./firmware/a530v3_gpmu.fw2
+./firmware/goodixfp.b03
+./firmware/voice_amodel.bin
+./firmware/a512_zap.b02
+./firmware/cpp_firmware_v1_10_0.fw
+./firmware/mzfacereco.b02
+./firmware/widevine.b05
+./firmware/a508_zap.b01
+./firmware/leia_pm4_470.fw
+./firmware/a300_pm4.fw
+./firmware/a420_pfp.fw
+./firmware/cppf.b01
+./firmware/cppf.b06
+./firmware/goodixfp.b05
+./firmware/goodixfp.mdt
+./firmware/nvm_tlv_3.2.bin
+./firmware/mzfacereco.b06
+./firmware/a530v1_pfp.fw
+./firmware/goodixfp.b06
+./firmware/a225_pm4.fw
+./firmware/mzfacereco.b01
+./firmware/a512_zap.elf
+./firmware/egista.b02
+./firmware/fpctzappfingerprint.b03
+./firmware/nvm_tlv.bin
+./firmware/rampatch_tlv_3.0.tlv
+./firmware/cpp_firmware_v1_12_1.fw
+./firmware/a630_sqe.fw
+./firmware/a630_gmu.bin
+./firmware/a530_pm4.fw
+./firmware/fpctzappfingerprint.b07
+./firmware/nvm_tlv_1.3.bin
+./firmware/cpp_firmware_v1_6_0.fw
+./firmware/egista.b04
+./firmware/cppf.mdt
+./firmware/a225_pfp.fw
+./firmware/fpctzappfingerprint.b00
+./firmware/cppf.b07
+./firmware/a330_pm4.fw
+./firmware/egista.b01
+./firmware/cpp_firmware_v1_8_0.fw
+./firmware/rampatch_tlv_1.3.tlv
+./firmware/widevine.b07
+./firmware/fpctzappfingerprint.b06
+./firmware/ifaa_ta.mbn
+./firmware/cpp_firmware_v1_1_1.fw
+./firmware/widevine.b03
+./firmware/goodixfp.b04
+./firmware/a512_zap.b01
+./firmware/widevine.b04
+./firmware/cppf.b03
+./firmware/mzfacereco.b05
+./firmware/tas2557_uCDSP.bin
+./firmware/mzfacereco.b00
+./firmware/a508_zap.elf
+./firmware/mzfacereco.b03
+./firmware/fpctzappfingerprint.mdt
+./firmware/cpp_firmware_v1_5_1.fw
+./firmware/mzfacereco.mdt
+./firmware/a508_zap.mdt
+./firmware/a530_pfp.fw
+./firmware/leia_pfp_470.fw
+./firmware/a512_zap.mdt
+./firmware/cpp_firmware_v1_12_0.fw
+./firmware/fpctzappfingerprint.b04
+./firmware/cppf.b02
+./firmware/goodixfp.b01
+./firmware/a530v1_pm4.fw
+./firmware/mzfacereco.b04
+./firmware/egista.mdt
+./firmware/fpctzappfingerprint.b02
+./firmware/dbmd4_va_fw.bin
+./firmware/DE.o.sdm660
+./firmware/widevine.b06
+./firmware/a420_pm4.fw
+./firmware/cppf.b04
+./firmware/a530_gpmu.fw2
+./firmware/a530v3_seq.fw2
+./firmware/egista.b06
+./firmware/tfa98xx.cnt
+./firmware/egista.b07
+./firmware/rampatch_tlv_3.2.tlv
+./firmware/a530v2_seq.fw2
+./firmware/goodixfp.b00
+./firmware/nvm_tlv_2.1.bin
+./firmware/cpp_firmware_v1_4_0.fw
+./firmware/a540_gpmu.fw2
+./firmware/widevine.b00
+./firmware/egista.b05
+./firmware/a330_pfp.fw
+./firmware/a512_zap.b00
+./firmware/nvm_tlv_3.0.bin
+./etc/msm_irqbalance.conf
+./etc/audio_platform_info_E3.xml
+./etc/qdcm_calib_data_td4310_huashi_fhd_video_mode_dsi_panel.xml
+./etc/sound_trigger_platform_info.xml
+./etc/audio/audio_policy_configuration.E3.xml
+./etc/audio/audio_policy_configuration.xml
+./etc/thermal-engine.conf
+./etc/fstab.qcom
+./etc/ZawgyiOne.ttf
+./etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+./etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+./etc/acdbdata/QRD/QRD_Headset_cal.acdb
+./etc/acdbdata/QRD/QRD_General_cal.acdb
+./etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Bluetooth_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_General_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Speaker_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Handset_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_workspaceFile.qwsp
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Global_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Hdmi_cal.acdb
+./etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Headset_cal.acdb
+./etc/acdbdata/QRD/QRD_Global_cal.acdb
+./etc/acdbdata/QRD/QRD_Handset_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_workspaceFile.qwsp
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb
+./etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb
+./etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+./etc/acdbdata/adsp_avs_config.acdb
+./etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+./etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+./etc/acdbdata/MTP/MTP_Headset_cal.acdb
+./etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+./etc/acdbdata/MTP/MTP_Handset_cal.acdb
+./etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+./etc/acdbdata/MTP/MTP_General_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Global_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb
+./etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_General_cal.acdb
+./etc/acdbdata/MTP/MTP_Global_cal.acdb
+./etc/sensors/sensor_def_qcomdev.conf
+./etc/sensors/hals.conf
+./etc/Flyme-Light.ttf
+./etc/a2dp_audio_policy_configuration.xml
+./etc/qdcm_calib_data_s6d6ff0_tianma_fhd_video_mode_dsi_panel.xml
+./etc/audio_platform_info_intcodec.xml
+./etc/listen_platform_info.xml
+./etc/msm_irqbalance_sdm660.conf
+./etc/audio_tuning_mixer.txt
+./etc/init/hw/init.E3.target.rc
+./etc/msm_irqbalance_sdm636.conf
+./etc/mixer_paths_E3.xml
+./etc/audio_platform_info.xml
+./etc/mixer_paths.xml
+./etc/camera/ov8865_chromatix.xml
+./etc/camera/csidtg_camera.xml
+./etc/camera/imx362_sunny.xml
+./etc/camera/ov2680_chromatix.xml
+./etc/camera/s5k2l7sx_chromatix.xml
+./etc/camera/ov2281_chromatix.xml
+./etc/camera/ov13850_chromatix.xml
+./etc/camera/ov5670_f5670bq_chromatix.xml
+./etc/camera/imx350_sunny.xml
+./etc/camera/lf_facerank_model.bin
+./etc/camera/csidtg_chromatix.xml
+./etc/camera/megviifacepp_model
+./etc/camera/ov13850_q13v06k_chromatix.xml
+./etc/camera/s5k2l7_8953_chromatix.xml
+./etc/camera/s5k3m2xx_chromatix.xml
+./etc/camera/imx362_chromatix_bear.xml
+./etc/camera/ov5670_chromatix.xml
+./etc/camera/GpuKernelRepo.pb
+./etc/camera/imx230_qc2002_chromatix.xml
+./etc/camera/imx214_chromatix.xml
+./etc/camera/imx350_qtech.xml
+./etc/camera/s5k2l7_chromatix.xml
+./etc/camera/ov8858_chromatix.xml
+./etc/camera/s5k3l8_mono_chromatix.xml
+./etc/camera/female_bg.png
+./etc/camera/camera_config.xml
+./etc/camera/beauty_ui9_intelligent_params.config
+./etc/camera/imx318_chromatix.xml
+./etc/camera/s5k3l8_chromatix.xml
+./etc/camera/male_bg.png
+./etc/camera/female_icon.png
+./etc/camera/imx258_bear_chromatix.xml
+./etc/camera/model_front.dlc
+./etc/camera/imx362_pixel_chromatix.xml
+./etc/camera/ov4688_chromatix.xml
+./etc/camera/imx362_qtech.xml
+./etc/camera/ov8856_chromatix.xml
+./etc/camera/imx362_chromatix.xml
+./etc/camera/ov5695_chromatix.xml
+./etc/camera/imx258_chromatix.xml
+./etc/camera/s5k3m2xm_chromatix.xml
+./etc/camera/s5k3m3sm_chromatix.xml
+./etc/camera/camera_pixel_config.xml
+./etc/camera/s5k3p8sp_chromatix.xml
+./etc/camera/imx230_chromatix.xml
+./etc/camera/imx258_mono_bear_chromatix.xml
+./etc/camera/imx298_gt24c64_chromatix.xml
+./etc/camera/imx378_chromatix.xml
+./etc/camera/male_icon.png
+./etc/camera/imx230_qc2002_with_gyro_chromatix.xml
+./etc/camera/score_bg.png
+./etc/camera/imx350_chromatix.xml
+./etc/camera/s5k3m2xm_chromatix_bear.xml
+./etc/camera/imx258_mono_chromatix.xml
+./etc/camera/score_icon.png
+./etc/camera/s5k4h7yx_chromatix.xml
+./etc/camera/imx362_gt24c64a_chromatix.xml
+./etc/camera/s5k3p3sm_chromatix.xml
+./etc/camera/imx298_chromatix.xml
+./etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
+./etc/camera/s5k4h7yx_holitech.xml
+./etc/camera/model_back.dlc
+./etc/camera/ov7251_chromatix.xml
+./etc/camera/s5k4h7yx_qunhui.xml
+./etc/camera/imx258_lc898217xc_chromatix.xml
+./etc/camera/s5k3l8_f3l8yam_chromatix.xml
+./firmware_mnt/verinfo/ver_info.txt
+./firmware_mnt/image/cmnlib.b05
+./firmware_mnt/image/mdtpseca.b06
+./firmware_mnt/image/cpe_9340.b16
+./firmware_mnt/image/qmpsecap.mdt
+./firmware_mnt/image/mdtpseca.b05
+./firmware_mnt/image/haventkn.mdt
+./firmware_mnt/image/cmnlib.b00
+./firmware_mnt/image/cppf.b05
+./firmware_mnt/image/qmpsecap.b04
+./firmware_mnt/image/bdwlan.b0b
+./firmware_mnt/image/bdwlan.b07
+./firmware_mnt/image/dhsecapp.mdt
+./firmware_mnt/image/modem.b01
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.txt
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/la/7+5_mode/sr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/la/7+5_mode/dr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/la/ss/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/wp8/7+5_mode/sr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/wp8/7+5_mode/dr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8998/wp8/ss/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55_/7+5_mode/sr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55_/7+5_mode/dr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55_/ss/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55/7+5_mode/sr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55/7+5_mode/dr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x55/ss/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/sdm660/la/7+5_mode/sr_dsds/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/sdm660/la/ss/mcfg_hw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/oem_sw.txt
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/umobile/commerci/malaysia/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/smartone/commerci/hk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/singtel/commerci/singapor/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/apt/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/m1/commerci/sg/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/hkt/commerci/hk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/ytl/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/truemove/commerci/thailand/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/dtac/commerci/th/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/tm/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/fareasto/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/p1/commerci/malaysia/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/ais/commerci/thailand/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/starhub/commerci/sg/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/imobile/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/cherry/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/3hk/commerci/hk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/ee/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/h3g/commerci/uk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/h3g/commerci/italy/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/h3g/commerci/se/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/sfr/commerci/fr/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/non_volt/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/netherla/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/germany/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/turkey/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/uk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/safrica/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/cz/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/italy/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/spain/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/vodafone/volte/portugal/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/orange/commerci/france/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/orange/commerci/group_no/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/orange/commerci/romania/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/orange/commerci/spain/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/bouygues/commerci/france/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/telenor/commerci/norway/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/dt/commerci/pl/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/dt/commerci/cz/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/dt/non_volt/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/dt/volte/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/telefoni/commerci/uk/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/telefoni/commerci/de/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/telefoni/non_volt/spain/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/swisscom/commerci/swiss/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/eu/tim/commerci/italy/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/commerci/openmkt/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/commerci/hvolte_o/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/commerci/volte_op/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/commerci/subsidiz/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_no_/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/lab/test/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/lab/cta/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/lab/volte_co/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_eps/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cu/commerci/openmkt/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cu/commerci/volte/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cu/commerci/subsidiz/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cu/lab/test/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/commerci/volte_op/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/commerci/volte_su/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/agnss_lo/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/lpp_loct/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/tgl_comb/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/nsiot_vo/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/w_irat_c/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/conf_vol/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/eps_only/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/rrlp_loc/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/amx/commerci/mx/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/amx/non_volt/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/amx/volte/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/claro/commerci/colombia/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/telefoni/commerci/peru/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/sa/brazil/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/korea/lgu/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/korea/tta/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/korea/kt/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/korea/skt/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/row/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/common/w_one/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/aunz/optus/commerci/au/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/aunz/vodafone/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/aunz/telstra/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/russia/beeline/gen_3gpp/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/russia/megafon/commerci/ru/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/apac/dcm/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/apac/reliance/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/apac/kddi/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/apac/sbm/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/tmo/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/uscc/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/sprint/commerci/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/verizon/cdmaless/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/non_volt/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/generic/na/att/volte/mcfg_sw.mbn
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.txt
+./firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig
+./firmware_mnt/image/cpe_9340.b03
+./firmware_mnt/image/data.msc
+./firmware_mnt/image/smplap64.b01
+./firmware_mnt/image/mdtpseca.b01
+./firmware_mnt/image/cppf.b00
+./firmware_mnt/image/modem.b20
+./firmware_mnt/image/mdtpseca.b03
+./firmware_mnt/image/cpe_9340.b20
+./firmware_mnt/image/widevine.b02
+./firmware_mnt/image/venus.b04
+./firmware_mnt/image/modem.b08
+./firmware_mnt/image/modem.b06
+./firmware_mnt/image/smplap32.b03
+./firmware_mnt/image/venus.b01
+./firmware_mnt/image/widevine.mdt
+./firmware_mnt/image/modem.b00
+./firmware_mnt/image/modem.b25
+./firmware_mnt/image/smplap32.b06
+./firmware_mnt/image/adsp.b21
+./firmware_mnt/image/widevine.b01
+./firmware_mnt/image/adsp.b05
+./firmware_mnt/image/bdwlan.b04
+./firmware_mnt/image/haventkn.b01
+./firmware_mnt/image/haventkn.b06
+./firmware_mnt/image/adsp.b14
+./firmware_mnt/image/cpe_9340.b07
+./firmware_mnt/image/adsp.b11
+./firmware_mnt/image/smplap32.b00
+./firmware_mnt/image/gptest.mdt
+./firmware_mnt/image/haventkn.b04
+./firmware_mnt/image/modem.b02
+./firmware_mnt/image/smplap64.b00
+./firmware_mnt/image/adsps.jsn
+./firmware_mnt/image/dhsecapp.b01
+./firmware_mnt/image/bdwlan.104
+./firmware_mnt/image/adsp.b09
+./firmware_mnt/image/smplap64.b03
+./firmware_mnt/image/cpe_9340.b06
+./firmware_mnt/image/modem.b28
+./firmware_mnt/image/venus.b03
+./firmware_mnt/image/isdbtmm.b00
+./firmware_mnt/image/bdwlan.108
+./firmware_mnt/image/modem.mdt
+./firmware_mnt/image/adsp.b18
+./firmware_mnt/image/bdwlan.105
+./firmware_mnt/image/dhsecapp.b06
+./firmware_mnt/image/smplap64.b02
+./firmware_mnt/image/adsp.b00
+./firmware_mnt/image/adsp.b15
+./firmware_mnt/image/cmnlib64.b03
+./firmware_mnt/image/isdbtmm.b02
+./firmware_mnt/image/gptest.b05
+./firmware_mnt/image/adsp.b10
+./firmware_mnt/image/iris.b07
+./firmware_mnt/image/modem.b03
+./firmware_mnt/image/bdwlan.bin
+./firmware_mnt/image/adsp.mdt
+./firmware_mnt/image/modem.b26
+./firmware_mnt/image/widevine.b05
+./firmware_mnt/image/bdwlan.b0a
+./firmware_mnt/image/modem.b27
+./firmware_mnt/image/securemm.b06
+./firmware_mnt/image/haventkn.b07
+./firmware_mnt/image/adsp.b01
+./firmware_mnt/image/mdtpseca.b02
+./firmware_mnt/image/securemm.b02
+./firmware_mnt/image/gptest.b06
+./firmware_mnt/image/iris.b00
+./firmware_mnt/image/modem.b14
+./firmware_mnt/image/iris.b02
+./firmware_mnt/image/cppf.b01
+./firmware_mnt/image/bdwlan.107
+./firmware_mnt/image/cppf.b06
+./firmware_mnt/image/venus.b02
+./firmware_mnt/image/gptest.b03
+./firmware_mnt/image/modem.b23
+./firmware_mnt/image/qmpsecap.b01
+./firmware_mnt/image/dhsecapp.b02
+./firmware_mnt/image/isdbtmm.b01
+./firmware_mnt/image/qmpsecap.b00
+./firmware_mnt/image/adsp.b12
+./firmware_mnt/image/iris.b04
+./firmware_mnt/image/adspr.jsn
+./firmware_mnt/image/dhsecapp.b07
+./firmware_mnt/image/dhsecapp.b05
+./firmware_mnt/image/bdwlan.102
+./firmware_mnt/image/cpe_9335.b20
+./firmware_mnt/image/bdwlan.b30
+./firmware_mnt/image/modem.b24
+./firmware_mnt/image/adsp.b06
+./firmware_mnt/image/modem.b11
+./firmware_mnt/image/mdtpseca.b00
+./firmware_mnt/image/iris.b03
+./firmware_mnt/image/mdtpseca.b04
+./firmware_mnt/image/cmnlib.b03
+./firmware_mnt/image/iris.b01
+./firmware_mnt/image/dhsecapp.b00
+./firmware_mnt/image/modem.b12
+./firmware_mnt/image/haventkn.b03
+./firmware_mnt/image/smplap64.mdt
+./firmware_mnt/image/cpe_9340.b15
+./firmware_mnt/image/haventkn.b05
+./firmware_mnt/image/securemm.b04
+./firmware_mnt/image/qmpsecap.b07
+./firmware_mnt/image/adsp.b20
+./firmware_mnt/image/smplap32.mdt
+./firmware_mnt/image/smplap64.b07
+./firmware_mnt/image/modem.b22
+./firmware_mnt/image/smplap64.b04
+./firmware_mnt/image/bdwlan.b36
+./firmware_mnt/image/mdtpseca.b07
+./firmware_mnt/image/bdwlan.10b
+./firmware_mnt/image/modemr.jsn
+./firmware_mnt/image/modem.b17
+./firmware_mnt/image/adsp.b08
+./firmware_mnt/image/modem.b04
+./firmware_mnt/image/cpe_9335.b22
+./firmware_mnt/image/adsp.b19
+./firmware_mnt/image/cpe_9335.b24
+./firmware_mnt/image/gptest.b04
+./firmware_mnt/image/cpe_9335.b09
+./firmware_mnt/image/bdwlan.b31
+./firmware_mnt/image/isdbtmm.b03
+./firmware_mnt/image/bdwlan.109
+./firmware_mnt/image/bdwlan.b35
+./firmware_mnt/image/cppf.mdt
+./firmware_mnt/image/iris.b06
+./firmware_mnt/image/modemuw.jsn
+./firmware_mnt/image/bdwlan.b32
+./firmware_mnt/image/cpe_9340.b13
+./firmware_mnt/image/bdwlan.b0d
+./firmware_mnt/image/securemm.b07
+./firmware_mnt/image/cpe_9335.b16
+./firmware_mnt/image/iris.mdt
+./firmware_mnt/image/cmnlib64.b05
+./firmware_mnt/image/cpe_9340.b11
+./firmware_mnt/image/securemm.b05
+./firmware_mnt/image/cpe_9335.b28
+./firmware_mnt/image/cppf.b07
+./firmware_mnt/image/cpe_9335.b19
+./firmware_mnt/image/adsp.b16
+./firmware_mnt/image/cmnlib.b04
+./firmware_mnt/image/securemm.b01
+./firmware_mnt/image/mba.mbn
+./firmware_mnt/image/bdwlan.b34
+./firmware_mnt/image/cpe_9335.b18
+./firmware_mnt/image/bdwlan.b0e
+./firmware_mnt/image/cpe_9335.b08
+./firmware_mnt/image/widevine.b07
+./firmware_mnt/image/smplap64.b05
+./firmware_mnt/image/smplap32.b02
+./firmware_mnt/image/cmnlib64.mdt
+./firmware_mnt/image/adsp.b03
+./firmware_mnt/image/widevine.b03
+./firmware_mnt/image/cmnlib64.b00
+./firmware_mnt/image/adsp.b02
+./firmware_mnt/image/securemm.mdt
+./firmware_mnt/image/widevine.b04
+./firmware_mnt/image/cppf.b03
+./firmware_mnt/image/haventkn.b02
+./firmware_mnt/image/gptest.b07
+./firmware_mnt/image/cmnlib64.b06
+./firmware_mnt/image/isdbtmm.b05
+./firmware_mnt/image/isdbtmm.b07
+./firmware_mnt/image/cpe_9340.mdt
+./firmware_mnt/image/cpe_9340.b01
+./firmware_mnt/image/isdbtmm.mdt
+./firmware_mnt/image/isdbtmm.b04
+./firmware_mnt/image/venus.mdt
+./firmware_mnt/image/venus.b00
+./firmware_mnt/image/modem.b18
+./firmware_mnt/image/cpe_9340.b09
+./firmware_mnt/image/cpe_9335.b26
+./firmware_mnt/image/securemm.b03
+./firmware_mnt/image/qmpsecap.b05
+./firmware_mnt/image/qmpsecap.b02
+./firmware_mnt/image/qmpsecap.b06
+./firmware_mnt/image/cppf.b02
+./firmware_mnt/image/bdwlan.b33
+./firmware_mnt/image/bdwlan.b0f
+./firmware_mnt/image/qdsp6m.qdb
+./firmware_mnt/image/cpe_9340.b05
+./firmware_mnt/image/smplap32.b07
+./firmware_mnt/image/dhsecapp.b03
+./firmware_mnt/image/modem.b13
+./firmware_mnt/image/securemm.b00
+./firmware_mnt/image/haventkn.b00
+./firmware_mnt/image/adsp.b13
+./firmware_mnt/image/gptest.b02
+./firmware_mnt/image/isdbtmm.b06
+./firmware_mnt/image/widevine.b06
+./firmware_mnt/image/cmnlib64.b01
+./firmware_mnt/image/smplap32.b01
+./firmware_mnt/image/bdwlan.b09
+./firmware_mnt/image/cmnlib64.b04
+./firmware_mnt/image/cmnlib.mdt
+./firmware_mnt/image/smplap64.b06
+./firmware_mnt/image/adspua.jsn
+./firmware_mnt/image/bdwlan.b14
+./firmware_mnt/image/adsp.b04
+./firmware_mnt/image/modem.b05
+./firmware_mnt/image/cppf.b04
+./firmware_mnt/image/cmnlib.b06
+./firmware_mnt/image/modem.b09
+./firmware_mnt/image/modem.b10
+./firmware_mnt/image/modem.b07
+./firmware_mnt/image/cmnlib.b01
+./firmware_mnt/image/cpe_9335.b11
+./firmware_mnt/image/mdtpseca.mdt
+./firmware_mnt/image/cmnlib.b02
+./firmware_mnt/image/smplap32.b04
+./firmware_mnt/image/modem.b21
+./firmware_mnt/image/adsp.b07
+./firmware_mnt/image/qmpsecap.b03
+./firmware_mnt/image/iris.b05
+./firmware_mnt/image/adsp.b17
+./firmware_mnt/image/cpe_9340.b18
+./firmware_mnt/image/gptest.b00
+./firmware_mnt/image/dhsecapp.b04
+./firmware_mnt/image/gptest.b01
+./firmware_mnt/image/modem.b16
+./firmware_mnt/image/cpe_9335.b14
+./firmware_mnt/image/widevine.b00
+./firmware_mnt/image/bdwlan.106
+./firmware_mnt/image/bdwlan.b37
+./firmware_mnt/image/cpe_9335.b29
+./firmware_mnt/image/cmnlib64.b02
+./firmware_mnt/image/cpe_9335.mdt
+./firmware_mnt/image/smplap32.b05
+./firmware_mnt/image/wlanmdsp.mbn
+./lib/libchromatix_imx350_cpp_liveshot.so
+./lib/libchromatix_imx362_4k_video_3a.so
+./lib/libchromatix_imx350_hfr_120_3a.so
+./lib/libchromatix_imx350_cpp_hfr_90.so
+./lib/libchromatix_imx362_hdr_video_3a.so
+./lib/libchromatix_s5k4h7yx_a3_default_preview.so
+./lib/libchromatix_s5k4h7yx_postproc.so
+./lib/libchromatix_s5k4h7yx_hfr_90.so
+./lib/libchromatix_imx362_cpp_snapshot.so
+./lib/libchromatix_imx350_hfr_90.so
+./lib/libchromatix_imx362_hfr_60_3a.so
+./lib/libchromatix_imx362_cpp_snapshot_upscale.so
+./lib/libchromatix_s5k4h7yx_a3_hfr_90.so
+./lib/libchromatix_imx362_cpp_hfr_120.so
+./lib/libmmcamera_imx362_gt24c64a.so
+./lib/libchromatix_s5k4h7yx_cpp_ds_chromatix.so
+./lib/libactuator_dw9800.so
+./lib/libactuator_dw9800_qtech.so
+./lib/libchromatix_s5k4h7yx_snapshot.so
+./lib/libchromatix_s5k4h7yx_a3_hfr_120.so
+./lib/libchromatix_imx350_hfr_90_3a.so
+./lib/libchromatix_imx362_cpp_preview.so
+./lib/libchromatix_imx350_default_preview_3a.so
+./lib/libchromatix_imx350_hfr_120.so
+./lib/libchromatix_imx362_default_video.so
+./lib/libchromatix_imx362_cpp_video.so
+./lib/libmmcamera_imx350.so
+./lib/libmmcamera_s5k4h7yx.so
+./lib/libchromatix_s5k4h7yx_cpp_video.so
+./lib/libchromatix_imx362_cpp_hfr_60.so
+./lib/libchromatix_imx350_zsl_video_3a.so
+./lib/libchromatix_imx350_hfr_60.so
+./lib/libchromatix_imx362_cpp_video_4k.so
+./lib/libchromatix_imx362_snapshot_hdr.so
+./lib/libactuator_ak7374_sunny.so
+./lib/libchromatix_imx362_default_video_3a.so
+./lib/libchromatix_s5k4h7yx_a3_default_video.so
+./lib/libchromatix_imx362_common.so
+./lib/libchromatix_imx350_snapshot.so
+./lib/libchromatix_s5k4h7yx_cpp_hfr_60.so
+./lib/libchromatix_imx350_cpp_video.so
+./lib/libchromatix_imx350_cpp_snapshot.so
+./lib/libchromatix_imx362_cpp_liveshot.so
+./lib/libchromatix_imx350_hfr_60_3a.so
+./lib/libchromatix_imx350_cpp_preview.so
+./lib/libchromatix_imx362_hfr_120.so
+./lib/libchromatix_imx362_hfr_60.so
+./lib/libchromatix_imx362_hdr_snapshot_3a.so
+./lib/libchromatix_s5k4h7yx_a3_hfr_60.so
+./lib/libchromatix_imx362_1080p_video_3a.so
+./lib/libactuator_dw9800_sunny.so
+./lib/libchromatix_imx350_default_video_3a.so
+./lib/libchromatix_imx350_cpp_hfr_60.so
+./lib/libchromatix_imx362_postproc.so
+./lib/libchromatix_s5k4h7yx_preview.so
+./lib/libchromatix_s5k4h7yx_cpp_preview.so
+./lib/libchromatix_s5k4h7yx_cpp_snapshot.so
+./lib/libmmcamera_sony_imx362_eeprom.so
+./lib/libchromatix_imx350_cpp_hfr_120.so
+./lib/libchromatix_imx350_postproc.so
+./lib/libchromatix_imx362_hfr_120_3a.so
+./lib/libmmcamera_holitech_s5k4h7yx_eeprom.so
+./lib/libchromatix_s5k4h7yx_common.so
+./lib/libactuator_ak7374_qtech.so
+./lib/libchromatix_s5k4h7yx_zsl_video.so
+./lib/libchromatix_imx362_cpp_snapshot_downscale.so
+./lib/libchromatix_s5k4h7yx_cpp_hfr_120.so
+./lib/libchromatix_s5k4h7yx_cpp_hfr_90.so
+./lib/libchromatix_s5k4h7yx_default_video.so
+./lib/libchromatix_s5k4h7yx_hfr_120.so
+./lib/libchromatix_imx362_video_4k.so
+./lib/libchromatix_imx350_zsl_preview_3a.so
+./lib/libchromatix_imx362_fullsize_video_3a.so
+./lib/libchromatix_imx362_cpp_snapshot_hdr.so
+./lib/libchromatix_imx362_4k_preview_3a.so
+./lib/libactuator_ak7374.so
+./lib/libmmcamera_sony_imx350_eeprom.so
+./lib/libchromatix_imx362_fullsize_preview_3a.so
+./lib/libchromatix_imx362_video_hdr.so
+./lib/libchromatix_imx350_common.so
+./lib/libmmcamera_imx362.so
+./lib/libchromatix_s5k4h7yx_cpp_liveshot.so
+./lib/libchromatix_imx362_cpp_video_hdr.so
+./lib/libchromatix_imx350_default_video.so
+./lib/libchromatix_s5k4h7yx_hfr_60.so
+./lib/libchromatix_s5k4h7yx_cpp_us_chromatix.so
+./lib/libchromatix_s5k4h7yx_zsl_preview.so
+./lib/libactuator_ak7371.so
+./lib/libchromatix_imx362_snapshot.so
+./lib/libchromatix_imx350_preview.so
+./bin/busybox
+./bin/init.class_main.sh
