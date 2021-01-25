@@ -99,6 +99,7 @@ LensInfo : Information of the lens present in the module.
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
+    <SensorSlaveAddress>0x20</SensorSlaveAddress>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -124,6 +125,7 @@ LensInfo : Information of the lens present in the module.
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
+    <SensorSlaveAddress>0x34</SensorSlaveAddress>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -147,6 +149,7 @@ LensInfo : Information of the lens present in the module.
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
+    <SensorSlaveAddress>0x5A</SensorSlaveAddress>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x1F</LaneMask>
