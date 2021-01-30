@@ -4,6 +4,8 @@ import /vendor/etc/init/hw/init.target.PL2.rc
 on boot
     # Hardcode to enable 
     setprop qemu.hw.mainkeys 0
+    setprop ro.hardware.fingerprint=goodixfp
+    setprop ro.boot.simslot 2
 
 #on property:ro.boot.hardware.fingerprint=goodixfp
 #    setprop ro.hardware.fingerprint=goodixfp
